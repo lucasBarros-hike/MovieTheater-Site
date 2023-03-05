@@ -1,0 +1,125 @@
+/*TAGS*/
+
+a:link {
+  text-decoration: none;
+}
+
+a:link.nav-link {
+  color: #fff;
+}
+
+a:hover.nav-link, a:active.nav-link, a:visited.nav-link {
+  color: #fff;
+  text-shadow: 1px 1px 1px #f00;
+}
+
+body {
+  font-family: 'Tilt Warp', cursive;
+  min-height: 100vh;
+}
+
+div.carousel {
+  border: 5px #d00 groove;
+}
+
+.movie-title {
+  border: 0.2rem black groove;
+}
+
+nav {
+  border-bottom: 5px solid #fff;
+}
+
+/*CAROUSEL*/
+
+#carouselExampleControls {
+  width: 100%;
+}
+
+/*CORES DE TEXTO*/
+
+.white {
+  color: #fff;
+}
+
+/*BACKGROUND*/
+
+.bg-main {
+  background: url(Background/bg1.png);
+  background-size:cover;
+}
+
+.bg-content {
+  background: url(Background/bg2.png);
+  background-size:contain;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-red {
+  background-color: #d00;
+}
+
+.bg-light-red {
+  background-color: #500;
+}
+
+/*BORDAS*/
+
+.border-main {
+  border: 1rem #d00 groove;
+}
+
+.border-content {
+  border: 0.5rem #aaa groove;
+}
+
+/*BOTÕES*/
+
+.button {
+  border: 1rem #aaa groove;
+  background-color: #fff;
+  justify-content: center;
+  padding: 0.4rem;
+  width: fit-content;
+}
+
+.button:hover {
+  border: 1rem #ddd groove;
+  background-color: #aaa;
+}
+
+/*IMAGENS*/
+
+.carouselImg {
+  height: 40vw;
+  min-height: 200px;
+  width: 100vw;
+}
+
+.img-content {
+  min-height: 300px;
+  width: 60vw;
+  height: 30vw;
+}
+
+/*TEXTO*/
+
+.text-justify {
+  text-align: justify;
+}
+
+/*CONTAINERS*/
+
+@media (min-width: 768px) {
+.carouselImg {
+  width: 75vw;
+  height: 40vw;
+}
+
+#carouselExampleControls {
+  width: 80%;
+}
+}

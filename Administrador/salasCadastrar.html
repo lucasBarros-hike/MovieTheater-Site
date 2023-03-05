@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="../css.css" rel="stylesheet">
+    <title>Cine View</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+</head>
+<body class="bg-content">
+  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary p-0">
+      <div class="container-fluid bg-black p-1">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Filmes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="filmeCadastrar.html">Cadastrar</a></li>
+                <li><a class="dropdown-item" href="filmeBuscar.html">Buscar</a></li>
+                <li><a class="dropdown-item" href="filmeAlterar.html">Alterar</a></li>
+                <li><a class="dropdown-item" href="filmeDelitar.html">Deletar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Funcionários
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="funcionarioCadastrar.html">Cadastrar</a></li>
+                <li><a class="dropdown-item" href="funcionarioBuscar.html">Buscar</a></li>
+                <li><a class="dropdown-item" href="funcionarioAlterar.html">Alterar</a></li>
+                <li><a class="dropdown-item" href="funcionarioDeletar.html">Deletar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Salas
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="salasCadastrar.html">Cadastrar</a></li>
+                <li><a class="dropdown-item" href="salasBuscar.html">Buscar</a></li>
+                <li><a class="dropdown-item" href="salasAlterar.html">Alterar</a></li>
+                <li><a class="dropdown-item" href="salasDeletar.html">Deletar</a></li>
+              </ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+<form method="post" class="container border-content bg-white p-3 mt-5 mb-5 w-75">
+    <h1 class="text-center mb-3">Cadastrar Sala</h1>
+    <div class="mb-3">
+      <label for="numeroSala" class="form-label">Número da Sala</label>
+      <input type="text" class="form-control" id="numeroSala" aria-describedby="nameHelp">
+    </div>
+    <div class="mb-3">
+      <label for="poltronas" class="form-label">Quantidade de Poltronas</label>
+      <input type="text" class="form-control" id="poltronas" aria-describedby="nameHelp">
+    </div>
+    <div class="mb-3">
+      <label for="filme" class="form-label">Filme</label>
+      <input type="text" class="form-control" id="filme">
+    </div>
+    <div class="mb-3">
+      <label for="sessao" class="form-label">Sessão</label>
+      <input type="time" class="form-control" id="sessao">
+    </div>
+    <button type="submit" class="btn btn-danger">Cadastrar</button>
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
